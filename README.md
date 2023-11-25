@@ -55,4 +55,4 @@ Este projeto é um sistema simples em C para administrar as reservas de um hotel
 4. Visualizar Reservas Atuais:
    - Escolha a opção 4 no menu para ver todas as reservas atuais.
 
-## Vídeo explicando e utilizando o projeto
+## Vídeo explicativo e prático do projeto
