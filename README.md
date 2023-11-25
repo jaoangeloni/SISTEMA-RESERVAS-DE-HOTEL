@@ -1,4 +1,4 @@
-# 🏨 Sistema de Reservas de Hotel em C
+# 🏨 Sistema de reservas de hotel em C
 
 ## Equipe
 - [JOÃO LUCAS ALTAFINI BATISTA]
