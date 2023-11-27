@@ -7,12 +7,7 @@
 #define FUNCOES_H
 #define MAXIMODERESERVAS 10
 
-/**
- * Função que executa a soma de dois valores inteiros
- * @param a Primeiro valor inteiro
- * @param b Segundo valor inteiro
- * @return A soma do primeiro com o segundo valor
- */
+//acrescentar os comentários sobre cada função
 
 typedef struct {
     int numeroQuarto;
