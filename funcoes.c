@@ -69,7 +69,9 @@ void realizarCheckOut(Reserva* reservas, int totalReservas) {
 void visualizarReservas(Reserva* reservas, int totalReservas) {
     printf("Quartos Reservados:\n");
     for (int i = 0; i < totalReservas; i++) {
-        if (reservas[i].ocupado) {
+        if (reservas[i].ocupado == 1) {
+            printf("Quarto %d: %s - %d dias - ocupado\n", reservas[i].numeroQuarto, reservas[i].hospede, reservas[i].diasReservados);
+        } else{
             printf("Quarto %d: %s - %d dias\n", reservas[i].numeroQuarto, reservas[i].hospede, reservas[i].diasReservados);
         }
     }
