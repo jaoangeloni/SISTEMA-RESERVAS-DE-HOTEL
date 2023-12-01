@@ -14,7 +14,7 @@ void fazerReserva(Reserva* reservas, int* totalReservas) {
         printf("Digite o nome do hospede: ");
         scanf("%s", reservas[*totalReservas].hospede);
 
-        reservas[*totalReservas].ocupado = 1;
+        reservas[*totalReservas].ocupado = 0;
         printf("Digite a quantidade de dias da reserva: ");
         scanf("%d", &reservas[*totalReservas].diasReservados);
 
@@ -37,13 +37,17 @@ void realizarCheckIn(Reserva* reservas, int totalReservas) {
 
     for (int i = 0; i < totalReservas; i++) {
         if (reservas[i].numeroQuarto == numeroQuarto) {
-            reservas[i].ocupado = 1;
-            printf("Check-in realizado com sucesso!\n");
+            if (reservas[i].ocupado == 1) {
+                printf("Quarto ja ocupado. Nao foi possivel realizar o check-in.\n");
+            } else {
+                reservas[i].ocupado = 1;
+                printf("Check-in realizado com sucesso!\n");
+            }
             return;
         }
     }
 
-    printf("Quarto nao encontrado ou ja ocupado.\n");
+    printf("Quarto nao encontrado.\n");
 }
 
 void realizarCheckOut(Reserva* reservas, int totalReservas) {
