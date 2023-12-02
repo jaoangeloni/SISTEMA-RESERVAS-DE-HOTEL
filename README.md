@@ -12,7 +12,7 @@ Este projeto é um sistema simples em C para administrar as reservas de um hotel
 
 ## Funcionalidades Implementadas
 1. **Reserva de Quartos:** Os usuários podem fazer reservas de quartos especificando o número do quarto e o tempo que ficará reservado.
-2. **Check-in:** Registra a entrada de hóspedes no hotel, marcando o quarto como ocupado na data de check-in.
+2. **Check-in:** Registra a entrada de hóspedes no hotel, marcando o quarto como ocupado na data de check-in (OBS: O Check-in só funciona para o primeiro que reservou o quarto).
 3. **Check-out:** Registra a saída de hóspedes do hotel, marcando o quarto como disponível na data de check-out.
 4. **Visualização de Reservas Atuais:** Permite aos usuários visualizarem todas as reservas atuais, mostrando informações como número do quarto, data de check-in e data de check-out.
 
@@ -22,13 +22,13 @@ Este projeto é um sistema simples em C para administrar as reservas de um hotel
    - Abra o terminal na pasta do projeto.
    - Compile o código usando o seguinte comando:
      ```bash
-     gcc main.c -o hotel_reservation_system
+     gcc main.c -o sistema_reservas_hotel
      ```
 
 2. **Execução do Programa:**
    - Após a compilação, execute o programa com o comando:
      ```bash
-     ./hotel_reservation_system
+     ./sistema_reservas_hotel
      ```
 
 ## Uso
@@ -56,3 +56,6 @@ Este projeto é um sistema simples em C para administrar as reservas de um hotel
    - Escolha a opção 4 no menu para ver todas as reservas atuais.
 
 ## Vídeo explicativo e prático do projeto
+```bash
+https://www.youtube.com/watch?v=TAKyXGn6NpA
+```
