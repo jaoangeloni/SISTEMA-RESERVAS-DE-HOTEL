@@ -54,6 +54,5 @@ Este projeto é um sistema simples em C para administrar as reservas de um hotel
    - Escolha a opção 4 no menu para ver todas as reservas atuais.
 
 ## Vídeo explicativo e prático do projeto
-```bash
-https://www.youtube.com/watch?v=TAKyXGn6NpA
-```
+- https://www.youtube.com/watch?v=TAKyXGn6NpA
+
