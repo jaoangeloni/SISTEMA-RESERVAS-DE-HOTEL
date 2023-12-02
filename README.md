@@ -19,17 +19,8 @@ Este projeto é um sistema simples em C para administrar as reservas de um hotel
 ## Instalação
 1. **Compilação do Código:**
    - Certifique-se de ter um compilador C instalado no seu sistema.
-   - Abra o terminal na pasta do projeto.
-   - Compile o código usando o seguinte comando:
-     ```bash
-     gcc main.c -o sistema_reservas_hotel
-     ```
-
-2. **Execução do Programa:**
-   - Após a compilação, execute o programa com o comando:
-     ```bash
-     ./sistema_reservas_hotel
-     ```
+   - Clone o repositório e abra a pasta como um projeto do CLion.
+   - Compile e execute o código com a interface do CLion.
 
 ## Uso
 1. **Menu Principal:**
