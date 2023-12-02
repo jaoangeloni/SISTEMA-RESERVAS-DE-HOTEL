@@ -14,7 +14,7 @@ Este projeto é um sistema simples em C para administrar as reservas de um hotel
 1. **Reserva de Quartos:** Os usuários podem fazer reservas de quartos especificando o número do quarto e o tempo que ficará reservado.
 2. **Check-in:** Registra a entrada de hóspedes no hotel, marcando o quarto como ocupado na data de check-in (OBS: O Check-in só funciona para o primeiro que reservou o quarto).
 3. **Check-out:** Registra a saída de hóspedes do hotel, marcando o quarto como disponível na data de check-out.
-4. **Visualização de Reservas Atuais:** Permite aos usuários visualizarem todas as reservas atuais, mostrando informações como número do quarto, data de check-in e data de check-out.
+4. **Visualização de Reservas Atuais:** Permite aos usuários visualizarem todas as reservas atuais, mostrando informações como número do quarto, nome de quem reservou e o tempo que ficará reservado.
 
 ## Instalação
 1. **Compilação do Código:**
