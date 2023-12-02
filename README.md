@@ -17,10 +17,17 @@ Este projeto é um sistema simples em C para administrar as reservas de um hotel
 4. **Visualização de Reservas Atuais:** Permite aos usuários visualizarem todas as reservas atuais, mostrando informações como número do quarto, nome de quem reservou e o tempo que ficará reservado.
 
 ## Instalação
-1. **Compilação do Código:**
+**Clonando o repositório**
+   - Com git bash
+      ```bash
+      git clone https://github.com/jaoangeloni/SISTEMA-RESERVAS-DE-HOTEL.git
+      ```
+   - Caso não tenha a ferramenta, basta clicar no botão de download e descompactar o arquivo.
+
+**Compilação do Código:**
    - Certifique-se de ter um compilador C instalado no seu sistema.
-   - Clone o repositório e abra a pasta como um projeto do CLion.
-   - Compile e execute o código com a interface do CLion.
+   - Abra a pasta como um projeto do CLion ou com qualquer outra IDE que compile códigos em C.
+   - Compile e execute o código com a interface da IDE.
 
 ## Uso
 1. **Menu Principal:**
